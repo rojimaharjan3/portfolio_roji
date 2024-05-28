@@ -27,12 +27,12 @@ const Navbar = () => {
         "absolute": !(scrollHit > navStickyScrollThreshold),
         "-translate-y-20": scrollHit > navStickyScrollThreshold - 50 && scrollHit < navStickyScrollThreshold,
       }
-    )} id="nav">
+    )} id="nav" style={{ paddingLeft: '20px', paddingRight: '20px' }}>
       <div className='flex items-center'>
         <h1><a href='#home' className='gradient__text text-4xl font-bold cursor-pointer'>RM.</a></h1>
       </div>
       <div className='flex items-center text-2xl space-x-6'>
-        <p><a href='#about' className='cursor-pointer lowercase gradient__text hover:border-b-4 hover:border-red-300 transition hover:ease-linear hover:duration-[0.2s] hover:scale-x-4 hover:scale-y-7'>Profile</a></p>
+        {/* <p><a href='#about' className='cursor-pointer lowercase gradient__text hover:border-b-4 hover:border-red-300 transition hover:ease-linear hover:duration-[0.2s] hover:scale-x-4 hover:scale-y-7'>Profile</a></p> */}
 
         <p className=""><a href='#projects' className=' cursor-pointer lowercase gradient__text  hover:border-b-4 hover:border-red-300 transition-[width] duration-[2s] border-x-0 border-l-0 hover:border-x-full hover:border-l-full'>Projects</a></p>
         <p><a href='#skills' className='cursor-pointer gradient__text lowercase hover:border-b-4 hover:border-red-300'>Skills</a></p>

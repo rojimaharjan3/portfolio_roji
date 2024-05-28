@@ -83,6 +83,8 @@ const skills = [
     { "icon": "/images/skills/html.png" },
     { "icon": "/images/skills/css.png" },
     { "icon": "/images/skills/material.png" },
+    { "icon": "/images/skills/Ant.png" },
+
 
 ]
 
