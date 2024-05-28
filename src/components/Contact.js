@@ -17,7 +17,7 @@ const Contact = () => {
           {socialData.map((item, i) => {
             return (
               <li key={item.name} className="hover:bg-gradient__text hover:-translate-y-1 hover:duration-900 duration-700 wow fadeInUp" data-wow-delay={0.15 * i + 's'} >
-                <a href={item.url} target="_blank">{item.icon}</a>
+                <a href={item.url} target="_blank" rel="noreferrer">{item.icon}</a>
               </li>
             )
           })}
